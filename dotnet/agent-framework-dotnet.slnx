@@ -12,6 +12,10 @@
     <Project Path="samples_bailian/01-get-started/04_memory/04_memory.csproj" />
     <Project Path="samples_bailian/01-get-started/05_first_workflow/05_first_workflow.csproj" />
   </Folder>
+  <Folder Name="/Samples-bailian/02-agents/" />
+  <Folder Name="/Samples-bailian/02-agents/DevUI/">
+    <Project Path="samples_bailian/02-agents/DevUI/DevUI_Step01_BasicUsage/DevUI_Step01_BasicUsage.csproj" />
+  </Folder>
   <Folder Name="/Samples/">
     <File Path="samples/AGENTS.md" />
     <File Path="samples/README.md" />

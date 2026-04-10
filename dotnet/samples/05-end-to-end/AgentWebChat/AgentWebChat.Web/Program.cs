@@ -27,6 +27,7 @@ builder.Services.AddSingleton(sp => new A2AAgentClient(sp.GetRequiredService<ILo
 builder.Services.AddHttpClient<OpenAIResponsesAgentClient>(client => client.BaseAddress = baseAddress);
 builder.Services.AddHttpClient<OpenAIChatCompletionsAgentClient>(client => client.BaseAddress = baseAddress);
 
+
 var app = builder.Build();
 
 if (!app.Environment.IsDevelopment())
